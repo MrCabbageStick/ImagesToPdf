@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+Icon="path/to/icon"
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+MimeType=all/allfiles;
+Actions=convert;
+Encoding=UTF-8
+
+[Desktop Action convert]
+Name=Convert Images to PDF
+Icon="path/to/icon"
+Exec="path/to/images2pdf.py" %u %F
